@@ -1639,12 +1639,14 @@ let StickyfooterComponent = class StickyfooterComponent {
         if (this.DownloadForm.invalid) {
             return;
         }
-        var objData = JSON.stringify({
+        var objData = {
             firstname: this.DownloadForm.value.FirstName,
             lastname: this.DownloadForm.value.LastName,
             email: this.DownloadForm.value.Email,
             segment3: 'download',
-        });
+            segment1: 'github.io',
+            segment2: 'angular',
+        };
         return this.httpClient.post(`https://auto.faciletechnolab.com/DownloadRequest`, objData).subscribe(result => {
             this.closeModal("custom-modal-1");
             window.open("https://github.com/FacileTechnolab/AgencyApp/archive/refs/heads/develop.zip", "_blank");
@@ -1655,12 +1657,14 @@ let StickyfooterComponent = class StickyfooterComponent {
         if (this.DownloadForm.invalid) {
             return;
         }
-        var objData = JSON.stringify({
+        var objData = {
             firstname: this.DownloadForm.value.FirstName,
             lastname: this.DownloadForm.value.LastName,
             email: this.DownloadForm.value.Email,
             segment3: 'hireus',
-        });
+            segment1: 'github.io',
+            segment2: 'angular',
+        };
         return this.httpClient.post(`https://auto.faciletechnolab.com/DownloadRequest`, objData).subscribe(result => {
             this.closeModal("custom-modal-2");
         });

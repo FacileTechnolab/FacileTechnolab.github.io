@@ -2131,12 +2131,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return;
           }
 
-          var objData = JSON.stringify({
+          var objData = {
             firstname: this.DownloadForm.value.FirstName,
             lastname: this.DownloadForm.value.LastName,
             email: this.DownloadForm.value.Email,
-            segment3: 'download'
-          });
+            segment3: 'download',
+            segment1: 'github.io',
+            segment2: 'angular'
+          };
           return this.httpClient.post("https://auto.faciletechnolab.com/DownloadRequest", objData).subscribe(function (result) {
             _this2.closeModal("custom-modal-1");
 
@@ -2154,12 +2156,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return;
           }
 
-          var objData = JSON.stringify({
+          var objData = {
             firstname: this.DownloadForm.value.FirstName,
             lastname: this.DownloadForm.value.LastName,
             email: this.DownloadForm.value.Email,
-            segment3: 'hireus'
-          });
+            segment3: 'hireus',
+            segment1: 'github.io',
+            segment2: 'angular'
+          };
           return this.httpClient.post("https://auto.faciletechnolab.com/DownloadRequest", objData).subscribe(function (result) {
             _this3.closeModal("custom-modal-2");
           });
