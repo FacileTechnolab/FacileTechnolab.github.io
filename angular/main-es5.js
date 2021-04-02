@@ -2140,7 +2140,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           return this.httpClient.post("https://auto.faciletechnolab.com/DownloadRequest", objData).subscribe(function (result) {
             _this2.closeModal("custom-modal-1");
 
-            window.open("https://github.com/FacileTechnolab/FacileTechnolab.github.io/releases/download/1.0/HTML-React-develop.zip", "_blank");
+            window.open("https://github.com/FacileTechnolab/AgencyApp/archive/refs/heads/develop.zip", "_blank");
           });
         }
       }, {
