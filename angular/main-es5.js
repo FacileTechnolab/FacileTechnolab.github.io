@@ -3186,32 +3186,32 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     "./src/app/Pages/contactpage/contactpage.component.ts");
 
     var routes = [{
-      path: "angular",
+      path: "",
       component: _Pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_3__["HomepageComponent"],
       pathMatch: 'full'
     }, {
-      path: 'angular/feature',
+      path: 'feature',
       component: _Pages_featurepage_featurepage_component__WEBPACK_IMPORTED_MODULE_4__["FeaturepageComponent"]
     }, {
-      path: 'angular/home',
+      path: 'home',
       component: _Pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_3__["HomepageComponent"]
     }, {
-      path: 'angular/services',
+      path: 'services',
       component: _Pages_servicespage_servicespage_component__WEBPACK_IMPORTED_MODULE_5__["ServicespageComponent"]
     }, {
-      path: 'angular/pricing',
+      path: 'pricing',
       component: _Pages_pricingpage_pricingpage_component__WEBPACK_IMPORTED_MODULE_6__["PricingpageComponent"]
     }, {
-      path: 'angular/blog',
+      path: 'blog',
       component: _Pages_blogpage_blogpage_component__WEBPACK_IMPORTED_MODULE_7__["BlogpageComponent"]
     }, {
-      path: 'angular/single-blog',
+      path: 'single-blog',
       component: _Pages_blogdetailspage_blogdetailspage_component__WEBPACK_IMPORTED_MODULE_8__["BlogdetailspageComponent"]
     }, {
-      path: 'angular/element',
+      path: 'element',
       component: _Pages_elementspage_elementspage_component__WEBPACK_IMPORTED_MODULE_9__["ElementspageComponent"]
     }, {
-      path: 'angular/contact',
+      path: 'contact',
       component: _Pages_contactpage_contactpage_component__WEBPACK_IMPORTED_MODULE_10__["ContactpageComponent"]
     }];
 
